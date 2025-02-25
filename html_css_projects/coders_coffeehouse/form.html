@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./global_styles.css">
     <title>Win a years supply of coffee from Coders Coffeehouse</title>
 </head>
+
 <body>
     <h1>Win a years supply of coffee from Coders Coffeehouse</h1>
     <p>Complete our survey for your chance to win!</p>
 
     <hr>
 
-    <form action="">
-        <input type="text">
+    <form action="https://formdump.codeinstitute.net" method="POST">
+        <div>
+            <label for="name-field">Name</label>
+            <input id="name-field" name="full_name" placeholder="Your name" type="text">
+        </div>
+        <div>
+            <label for="email-field">Email</label>
+            <input id="email-field" name="email" placeholder="Your email" type="email">
+        </div>
+        <label for="feedback">What can we do to improve your experience with us?</label>
+        <br>
+        <textarea name="feedback" id="feedback" placeholder="Your feedback" cols="80" rows="5"></textarea>
+        <br>
+        <input type="submit" value="Enter prize draw">
     </form>
 </body>
+
 </html>
