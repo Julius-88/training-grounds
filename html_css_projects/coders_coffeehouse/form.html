@@ -19,15 +19,15 @@
             <legend>Your details</legend>
             <div>
                 <label for="name-field">Name</label>
-                <input id="name-field" name="full_name" placeholder="Your name" type="text">
+                <input id="name-field" name="full_name" placeholder="Your name" type="text" required>
             </div>
             <div>
                 <label for="email-field">Email</label>
-                <input id="email-field" name="email" placeholder="Your email" type="email">
+                <input id="email-field" name="email" placeholder="Your email" type="email" required>
             </div>
 
             <label for="age">Age</label>
-            <select id="age" name="age">
+            <select id="age" name="age" required>
                 <option value="under-20">Under 20</option>
                 <option value="20s">20-29</option>
                 <option value="30s">30-39</option>
@@ -42,7 +42,7 @@
             <legend>Our products</legend>
             <div>
                 <label for="fav-coffee">What is your favourite coffee?</label>
-                <input type="text" id="fav-coffee" name="fav-coffee" list="coffees">
+                <input type="text" id="fav-coffee" name="fav-coffee" list="coffees" required>
                 <datalist id="coffees">
                     <option value="Latte"></option>
                     <option value="Americano"></option>
@@ -54,7 +54,7 @@
 
             <p>How many cups of coffee do you drink a day?</p>
 
-            <input type="radio" id="0-2cups-radio" name="cups-a-day" value="0-2cups">
+            <input type="radio" id="0-2cups-radio" name="cups-a-day" value="0-2cups" required>
             <label for="0-2cups-radio">0 to 2 cups</label>
 
             <input type="radio" id="3-5cups-radio" name="cups-a-day" value="3-5cups">
@@ -68,7 +68,7 @@
 
             <p>How often do you visit Coders Coffeehouse?</p>
 
-            <input type="radio" id="once-a-week" value="once-a-week" name="visit-frequency">
+            <input type="radio" id="once-a-week" value="once-a-week" name="visit-frequency" required>
             <label for="once-a-week">Once a week</label>
 
             <input type="radio" id="twice-a-week" value="twice-a-week" name="visit-frequency">
