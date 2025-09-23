@@ -1,0 +1,65 @@
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.reasons-box {
+    background-color: chocolate;
+}
+
+#coffee-box {
+    background-color: brown;
+}
+
+#tea-box {
+    background-color: #6f4e37;
+}
+
+#cold-drinks-box {
+    background-color: chocolate;
+}
+
+
+/* --------------------FORM */
+
+form {
+    margin-top: 2rem;
+}
+
+
+/* 
+.hr-lines:before {
+    content: ' ';
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: red;
+}
+
+.hr-lines {
+    position: relative;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.hr-lines:after {
+    content: " ";
+    height: 2px;
+    width: 130px;
+    background: red;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+} */
