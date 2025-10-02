@@ -37,3 +37,8 @@ p {
 header {
     background-color: black;
 }
+
+a:hover {
+    text-decoration: none;
+    color: chocolate;
+}
