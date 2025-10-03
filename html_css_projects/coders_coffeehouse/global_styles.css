@@ -42,3 +42,25 @@ a:hover {
     text-decoration: none;
     color: chocolate;
 }
+
+/* Footer */
+
+footer {
+    background-color: #6f4e37;
+    padding: 1em;
+    text-align: center;
+}
+
+footer>span {
+    color: silver;
+}
+
+footer>a {
+    color: beige;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+footer>p {
+    color: silver;
+}
