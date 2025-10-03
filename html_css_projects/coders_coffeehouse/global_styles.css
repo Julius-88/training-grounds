@@ -26,40 +26,41 @@
     background-color: chocolate;
 }
 
-
-/* --------------------FORM */
-
-form {
-    margin-top: 2rem;
+h1 {
+    color: brown;
 }
 
-
-/* 
-.hr-lines:before {
-    content: ' ';
-    display: block;
-    height: 2px;
-    width: 130px;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    background: red;
+p {
+    color: white;
 }
 
-.hr-lines {
-    position: relative;
-    max-width: 500px;
-    margin: 100px auto;
+header {
+    background-color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: chocolate;
+}
+
+/* Footer */
+
+footer {
+    background-color: #6f4e37;
+    padding: 1em;
     text-align: center;
 }
 
-.hr-lines:after {
-    content: " ";
-    height: 2px;
-    width: 130px;
-    background: red;
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 0;
-} */
+footer>span {
+    color: silver;
+}
+
+footer>a {
+    color: beige;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+footer>p {
+    color: silver;
+}
