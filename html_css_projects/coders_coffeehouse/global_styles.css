@@ -14,6 +14,10 @@
     background-color: chocolate;
 }
 
+.reasons-box > h2 {
+    font-size: xx-large;
+}
+
 #coffee-box {
     background-color: brown;
 }
