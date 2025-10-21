@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+
 .text-white {
     color: white;
 }
@@ -14,6 +16,10 @@
     font-size: xx-large;
 }
 
+.page-header {
+    height: 50vh;
+}
+
 #coffee-box {
     background-color: brown;
 }
@@ -28,6 +34,14 @@
 
 .drinks-box {
     width: 33%;
+}
+
+body {
+    font-family:"Open Sans", Arial, sans-serif;
+}
+
+h1,h2,h3 {
+    font-family:"Merienda One", "Brush Script MT",cursive;
 }
 
 h1 {
