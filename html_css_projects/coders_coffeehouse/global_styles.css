@@ -45,7 +45,6 @@ h1,h2,h3 {
 }
 
 h1 {
-    color: brown;
     font-size: 3rem;
 }
 
@@ -55,11 +54,21 @@ header > p {
 
 header {
     background-color: black;
+    color: beige;
 }
 
 a:hover {
     text-decoration: none;
     color: chocolate;
+}
+
+nav > a {
+    color: beige;
+    margin: 1rem;
+}
+
+nav > a:hover {
+    color: silver;
 }
 
 /* Footer */
