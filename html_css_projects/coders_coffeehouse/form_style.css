@@ -11,3 +11,8 @@ input[type=submit] {
     border: none;
     border-radius: 5px;
 }
+
+legend {
+    font-size: large;
+    font-weight: 600;
+}
