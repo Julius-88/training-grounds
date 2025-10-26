@@ -4,6 +4,14 @@
     color: white;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align:right;
+}
+
 .bold {
     font-weight: bold;
 }
