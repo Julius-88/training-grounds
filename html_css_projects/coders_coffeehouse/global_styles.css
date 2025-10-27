@@ -12,6 +12,14 @@
     text-align:right;
 }
 
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -81,6 +89,7 @@ a:hover {
 nav > a {
     color: beige;
     margin: 1rem;
+    text-decoration: none;
 }
 
 nav > a:hover {

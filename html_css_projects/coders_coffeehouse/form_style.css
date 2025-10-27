@@ -3,6 +3,10 @@ form {
     width: 700px;
 }
 
+small {
+    font-style: italic;
+}
+
 input[type=submit] {
     margin-left: 0.75rem;
     padding: 0.75rem;
@@ -15,4 +19,5 @@ input[type=submit] {
 legend {
     font-size: large;
     font-weight: 600;
+    text-transform: uppercase;
 }
