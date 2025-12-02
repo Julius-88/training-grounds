@@ -1,6 +1,8 @@
 form {
     margin-top: 2rem;
     width: 700px;
+    padding: 25px;
+    border-radius: 8px;
 }
 
 small {
@@ -16,8 +18,38 @@ input[type=submit] {
     border-radius: 5px;
 }
 
+input[type=text],
+input[type=email],
+input[list=coffees] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+}
+
+/* overrides css above */
+input[list=coffees] {
+    width: 45%;
+}
+
 legend {
     font-size: large;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+select {
+    padding-left: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+fieldset {
+    border: none;
+}
+
+#terms {
+    border: 1px solid grey;
+    width: 90%;
+    height: 200px;
+    padding: 0.5rem;
 }

@@ -1,5 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
 
+body {
+    font-family:"Open Sans", Arial, sans-serif;
+}
+
+nav {
+    padding: 0;
+}
+
+nav > a {
+    color: beige;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    color: silver;
+}
+
+h1,h2,h3 {
+    font-family:"Merienda One", "Brush Script MT",cursive;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+ul {
+    padding: 1rem;
+}
+
+strong {
+    font-size: 1.3rem;
+}
+
+header > p {
+    color: white;
+}
+
+header {
+    background-color: black;
+    color: beige;
+}
+
+a:hover {
+    text-decoration: none;
+    color: chocolate;
+}
+
+img {
+    border-radius: 8px;
+    width: 96%;
+}
+
+th,
+td {
+    border-bottom: 1px solid black;
+}
+
 .text-white {
     color: white;
 }
@@ -26,6 +88,9 @@
 
 .reasons-box {
     background-color: chocolate;
+    padding: 10px 5px 25px 5px;
+    border-radius: 8px;
+    width: 100%;
 }
 
 .reasons-box > h2 {
@@ -48,52 +113,27 @@
     background-color: chocolate;
 }
 
+#drinks {
+    padding: 1rem 0;
+}
+
 .drinks-box {
     width: 33%;
 }
 
-body {
-    font-family:"Open Sans", Arial, sans-serif;
+#map {
+    border: none;
+    width: 100%;
+    height: 100%;
 }
 
-h1,h2,h3 {
-    font-family:"Merienda One", "Brush Script MT",cursive;
+#contact {
+    margin-bottom: 50px;
 }
 
-h1 {
-    font-size: 3rem;
-}
-
-h2 {
-    font-size: xx-large;
-}
-
-strong {
-    font-size: 1.3rem;
-}
-
-header > p {
-    color: white;
-}
-
-header {
-    background-color: black;
-    color: beige;
-}
-
-a:hover {
-    text-decoration: none;
-    color: chocolate;
-}
-
-nav > a {
-    color: beige;
-    margin: 1rem;
-    text-decoration: none;
-}
-
-nav > a:hover {
-    color: silver;
+#contact-boxes-container {
+    margin: 0 auto;
+    width: 66%;
 }
 
 /* Footer */
