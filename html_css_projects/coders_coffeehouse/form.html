@@ -4,17 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Complete our survey for your chance to win a years supply of coffee from Coders Coffeehouse.">
+    <meta name="keywords" content="coffeehouse, coffee, developers cafe, free wifi, dublin">
+    <meta name="author" content="Coders Coffeehouse">
     <link rel="stylesheet" href="./global_styles.css">
     <link rel="stylesheet" href="./form_style.css">
     <title>Win a years supply of coffee from Coders Coffeehouse</title>
 </head>
 
 <body>
-    <header class="page-header">
+    <header>
         <h1>Win a years supply of coffee from Coders Coffeehouse</h1>
         <p>Complete our survey for your chance to win!</p>
     </header>
+
     <hr>
+
+    <nav>
+        <a href="index.html#home" aria-label="Go to the top of the page">Home</a>
+        <a href="index.html#drinks" aria-label="Go to drinks menu section">Drinks Menu</a>
+        <a href="index.html#contact" aria-label="Go to contact information section">Contact</a>
+        <a href="form.html" aria-label="Fill in our survey for your chance to win free coffee">Win Free Coffee</a>
+    </nav>
 
     <form action="https://formdump.codeinstitute.net" method="POST">
         <fieldset>
@@ -82,8 +94,7 @@
             <input type="radio" id="not-often" value="not-often" name="visit-frequency">
             <label for="not-often">Not often</label>
 
-            <p class="bold">Which of our coders coffeehouse snacks do you enjoy?</p>
-            <small>(select all that apply)</small>
+            <p>Which of our coders coffeehouse snacks do you enjoy?</p>
             <div>
                 <input type="checkbox" id="brownies-checkbox" name="brownies">
                 <label for="brownies-checkbox">Brownies</label>

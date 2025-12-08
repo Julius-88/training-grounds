@@ -68,14 +68,6 @@ td {
     border-bottom: 1px solid black;
 }
 
-small {
-    font-style: italic;
-}
-
-label {
-    margin: 10px 15px 5px 0;
-}
-
 .text-white {
     color: white;
 }

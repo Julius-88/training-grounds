@@ -9,6 +9,10 @@ small {
     font-style: italic;
 }
 
+label {
+    margin: 10px 15px 5px 0;
+}
+
 input[type=submit] {
     margin-left: 0.75rem;
     margin-top: 20px;
