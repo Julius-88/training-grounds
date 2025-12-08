@@ -1,5 +1,5 @@
 form {
-    margin-top: 2rem;
+    margin: 25px auto;
     width: 700px;
     padding: 25px;
     border-radius: 8px;
@@ -11,6 +11,7 @@ small {
 
 input[type=submit] {
     margin-left: 0.75rem;
+    margin-top: 20px;
     padding: 0.75rem;
     background-color: #5e361b;
     color: white;
@@ -24,6 +25,7 @@ input[list=coffees] {
     height: 30px;
     width: 90%;
     padding-left: 10px;
+    margin: 0px auto;
 }
 
 /* overrides css above */
@@ -35,6 +37,7 @@ legend {
     font-size: large;
     font-weight: 600;
     text-transform: uppercase;
+    margin: 20px 0 10px 0;
 }
 
 select {
@@ -45,6 +48,7 @@ select {
 
 fieldset {
     border: none;
+    margin-top: 20px;
 }
 
 #terms {
@@ -52,4 +56,9 @@ fieldset {
     width: 90%;
     height: 200px;
     padding: 0.5rem;
+    margin: 1.5rem 0 0 15px;
+}
+
+.checkboxes-box div {
+    margin-top: 15px;
 }
