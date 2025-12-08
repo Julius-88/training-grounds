@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Coders Coffeehouse, Dublin based coffeehouse offering free unlimited wifi and quality caffeine to fuel your code.">
+    <meta name="keywords" content="coffeehouse, coffee, developers cafe, free wifi, dublin">
     <meta name="author" content="Coders Coffeehouse">
     <link rel="stylesheet" href="./global_styles.css">
     <title>Coders Coffeehouse</title>
@@ -13,7 +14,7 @@
 
 <body>
 
-    <header id="home" class="page-header text-center">
+    <header id="home" class="text-center">
         <h1>Welcome to Coders Coffeehouse!</h1>
         <p>Turning caffeine into code since 1999.</p>
     </header>
@@ -55,7 +56,7 @@
                 <li>Flat White</li>
             </ul>
         </div>
-        <div id="tea-box" class="text-white drinks-box">
+        <div id="tea-box" class="drinks-box">
             <h3>Tea</h3>
             <ul>
                 <li>Earl Grey</li>
@@ -66,7 +67,7 @@
                 <li>Mint Tea</li>
             </ul>
         </div>
-        <div id="cold-drinks-box" class="text-white drinks-box">
+        <div id="cold-drinks-box" class="drinks-box">
             <h3>Cold drinks</h3>
             <ul>
                 <li>Iced Coffee</li>
@@ -83,26 +84,28 @@
         </div>
     </section>
     <section id="contact">
-        <h2 class="text-center">Contact</h2>
-        <h3 class="text-center">Open times</h3>
-        <table class="text-center">
-            <tr>
-                <th></th>
-                <th>Open</th>
-                <th>Close</th>
-            </tr>
-            <tr>
-                <td>Mon - Fri</td>
-                <td>09:00</td>
-                <td>21:00</td>
-            </tr>
-            <tr>
-                <td>Weekend</td>
-                <td>10:00</td>
-                <td>22:00</td>
-            </tr>
-        </table>
-        <div class="text-right">
+        <h2>Contact</h2>
+        <div class="contact-boxes-container">
+            <h3 class="text-center">Open times</h3>
+            <table class="text-center">
+                <tr>
+                    <th></th>
+                    <th>Open</th>
+                    <th>Close</th>
+                </tr>
+                <tr>
+                    <td>Mon - Fri</td>
+                    <td>09:00</td>
+                    <td>21:00</td>
+                </tr>
+                <tr>
+                    <td>Weekend</td>
+                    <td>10:00</td>
+                    <td>22:00</td>
+                </tr>
+            </table>
+        </div>
+        <div class="text-right contact-box-right">
             <h3>Get in touch</h3>
             <div>
                 <span class="bold">Phone: </span>
@@ -113,11 +116,13 @@
                 <span>email@coderscoffeehouse.com</span>
             </div>
         </div>
-        <h3>Address</h3>
-        <p>Coders Coffeehouse, <br> 42 Coffeebean street, <br> Dublin</p>
+        <div class="contact-box-center">
+            <h3>Address</h3>
+            <p>Coders Coffeehouse, <br> 42 Coffeebean street, <br> Dublin</p>
+        </div>
     </section>
-    <section>
-        <iframe id="map" src="https://bit.ly/2QVfkiy" height="300" width="100%"></iframe> <!-- Shortened with Bitly-->
+    <section id="map-wrapper">
+        <iframe src="https://bit.ly/2QVfkiy" height="300" width="100%"></iframe> <!-- Shortened with Bitly-->
     </section>
     <footer class="text-uppercase">
         <span>Find us on:</span>
